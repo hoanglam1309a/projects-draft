@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+  font-size: 14px;
+  font: inherit;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+picture {
+  display: block;
+  max-width: 100%;
+}
+
+/* remove animation for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+.text-link {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.01rem;
+  color: #818da9;
+}
+
+.desc {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  letter-spacing: -0.01rem;
+  color: #627193;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 4.6rem;
+  line-height: 5.6rem;
+  letter-spacing: -0.015em;
+  color: #00005c;
+}
+
+.heading-small {
+  font-weight: 600;
+  font-size: 2.6rem;
+  line-height: 3.9rem;
+  color: #00005c;
+  letter-spacing: -0.015rem;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.btn {
+  outline: none;
+  border: 2px solid transparent;
+  height: 50px;
+  padding: 0 20px;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.btn--primary {
+  background: #3c50e0;
+  box-shadow: 0px 15px 20px -10px rgba(60, 80, 224, 0.3);
+  border-radius: 10px;
+}
+.btn--primary:hover {
+  background-color: #fff;
+  color: #3c50e0;
+  border: 2px solid #3c50e0;
+}
+.btn--large {
+  height: 58px;
+}
+.btn-icon {
+  display: flex;
+  align-items: center;
+}
+.btn-icon ion-icon {
+  margin-left: 4px;
+}
+
+.revenue {
+  width: 240px;
+  height: 190px;
+  background: #ffffff;
+  box-shadow: 10px 14px 59px rgba(0, 0, 92, 0.07);
+  border-radius: 20px;
+  position: absolute;
+  padding: 25px 30px 22px;
+}
+.revenue-heading {
+  margin: 25px 0 5px;
+}
+
+.header-container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .menu {
+  display: flex;
+  gap: 40px;
+}
+.header .menu-link {
+  transition: all 0.3s ease;
+}
+.header .menu-link:hover {
+  color: #3c50e0;
+}
+.header .btn--outline {
+  margin-right: 20px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.hero {
+  position: relative;
+  height: 720px;
+}
+.hero-container {
+  display: flex;
+}
+.hero-content {
+  min-width: 590px;
+}
+.hero-heading {
+  font-weight: 600;
+  font-size: 6.4rem;
+  line-height: 7.4rem;
+  letter-spacing: -0.015rem;
+  color: #00005c;
+  margin-top: 80px;
+}
+.hero-desc {
+  margin: 20px 0 30px 0;
+}
+.hero-list {
+  display: flex;
+  margin-top: 80px;
+}
+.hero .revenue {
+  left: 640px;
+  bottom: 101px;
+}
+
+.guides {
+  background-color: #f5fafe;
+  padding: 90px 0;
+}
+.guides-top {
+  text-align: center;
+  width: 567px;
+  margin: 0 auto;
+  margin-bottom: 88px;
+}
+.guides-top .desc {
+  max-width: 425px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.guides-title {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 28px;
+  letter-spacing: -0.005em;
+  color: #00005c;
+  margin: 35px 0 20px;
+}
+.guides-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 35px;
+}
+.guides-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 40px 53px;
+  background: #ffffff;
+  border: 1px solid #f5f5f5;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.guides-item--active {
+  background-color: #3c50e0;
+}
+.guides-item--active .guides-title {
+  color: #fff;
+}
+.guides-item--active .desc {
+  color: #fff;
+}
+
+.discover {
+  padding: 83px 0 81px 0;
+  position: relative;
+}
+.discover-container {
+  display: flex;
+  justify-content: space-between;
+}
+.discover-content {
+  max-width: 499px;
+  padding-top: 115px;
+}
+.discover-content .desc {
+  max-width: 317px;
+  margin: 20px 0 40px;
+}
+.discover .revenue {
+  top: 57px;
+  left: 465px;
+}
+
+.access {
+  position: relative;
+  padding: 123px 0 97px;
+}
+.access-container {
+  display: flex;
+}
+.access-content {
+  min-width: 590px;
+  margin-top: 149px;
+}
+.access-content .heading {
+  max-width: 490px;
+}
+.access-content .desc {
+  max-width: 425px;
+  margin: 20px 0 40px;
+}
+.access .revenue {
+  bottom: 57px;
+  right: 260px;
+}
+.access .metric {
+  position: absolute;
+  top: 143px;
+  right: 455px;
+  height: 150px;
+  width: 380px;
+  background-color: #fff;
+  box-shadow: -10px 14px 34px rgba(60, 80, 224, 0.09);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+}
+.access .metric-info {
+  margin-left: 20px;
+}
+.access .metric-money {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 4.5rem;
+  letter-spacing: -0.015rem;
+  color: #00005c;
+}
+.access .metric-address {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  letter-spacing: -0.01rem;
+  color: #627193;
+  margin-bottom: 5px;
+}
+.access .metric-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discover2 {
+  padding: 170px 0 90px;
+  position: relative;
+}
+.discover2-container {
+  display: flex;
+}
+.discover2-content {
+  max-width: 499px;
+  margin-left: 124px;
+  margin-top: 66px;
+}
+.discover2 .heading {
+  margin-bottom: 20px;
+}
+.discover2 .desc {
+  max-width: 335px;
+}
+.discover2-list {
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+.discover2-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+.discover2-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 100rem;
+  background-color: #eceefc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.discover2-icon ion-icon {
+  color: #3c50e0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.discover2-desc {
+  letter-spacing: -0.015em;
+}
+.discover2 .amys {
+  width: 284px;
+  height: 260px;
+  padding: 35px 0 43px 38px;
+  background-color: #fff;
+  box-shadow: -10px 14px 34px rgba(60, 80, 224, 0.09);
+  border-radius: 20px;
+  position: absolute;
+  top: 90px;
+  left: 434px;
+}
+.discover2 .amys-money {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: -0.015rem;
+  color: #00005c;
+  margin-bottom: 10px;
+}
+.discover2 .amys-counter {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  letter-spacing: -0.005rem;
+  color: #627193;
+}
+.discover2 .amys-rate {
+  display: flex;
+  margin: 16px 0 22px;
+}
+.discover2 .amys-rate img {
+  margin-right: 8px;
+}
+.discover2 .amys-user {
+  display: flex;
+}
+.discover2 .amys-user img {
+  margin-right: 12px;
+}
+
+.guesswork {
+  margin: 74px 0 73px;
+}
+.guesswork-top {
+  margin: 0 auto;
+  max-width: 623px;
+  text-align: center;
+}
+.guesswork-top .desc {
+  margin-top: 15px;
+  max-width: 566px;
+}
+.guesswork-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.guesswork .btn {
+  margin: 0 auto;
+  margin-top: 70px;
+  padding: 0 32px;
+}
+
+/*# sourceMappingURL=app.css.map */

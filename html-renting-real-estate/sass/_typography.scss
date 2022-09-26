@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
+.text-link {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.01rem;
+  color: $gray-light-color;
+}
+.desc {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  letter-spacing: -0.01rem;
+  color: $text-second-color;
+}
+.heading {
+  font-weight: 600;
+  font-size: 4.6rem;
+  line-height: 5.6rem;
+  letter-spacing: -0.015em;
+  color: $text-primary-color;
+}
+.heading-small {
+  font-weight: 600;
+  font-size: 2.6rem;
+  line-height: 3.9rem;
+  color: $text-primary-color;
+  letter-spacing: -0.015rem;
+}

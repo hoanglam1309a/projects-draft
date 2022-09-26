@@ -1,0 +1,22 @@
+.guesswork {
+  margin: 74px 0 73px;
+  &-top {
+    margin: 0 auto;
+    max-width: 623px;
+    text-align: center;
+    .desc {
+      margin-top: 15px;
+      max-width: 566px;
+    }
+  }
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  .btn {
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 0 32px;
+  }
+}

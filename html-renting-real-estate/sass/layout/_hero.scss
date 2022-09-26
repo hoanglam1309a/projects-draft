@@ -1,0 +1,29 @@
+.hero {
+  position: relative;
+  height: 720px;
+  &-container {
+    display: flex;
+  }
+  &-content {
+    min-width: 590px;
+  }
+  &-heading {
+    font-weight: 600;
+    font-size: 6.4rem;
+    line-height: 7.4rem;
+    letter-spacing: -0.015rem;
+    color: $text-primary-color;
+    margin-top: 80px;
+  }
+  &-desc {
+    margin: 20px 0 30px 0;
+  }
+  &-list {
+    display: flex;
+    margin-top: 80px;
+  }
+  .revenue {
+    left: 640px;
+    bottom: 101px;
+  }
+}

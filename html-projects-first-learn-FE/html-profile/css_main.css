@@ -1,0 +1,315 @@
+body{
+    margin:0;
+    padding:0;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+body h2{
+    color:#000;
+    text-align: center;
+    font-size:1.5em;
+    margin:0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+#container{
+    margin:0;
+    padding:0;
+    height:100vh;
+    width:100%;
+    background-image: linear-gradient(45deg,rgba(10,191,188,0.6), rgba(252,53,76,0.6)),url('https://media-public.canva.com/MAB5_qh2g88/1/thumbnail_large-1.jpg'); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position:relative;
+}
+
+
+#container header #infor{
+    width:60%;
+    height:40%;
+    margin-top:0%;
+    margin-left:20%;
+    text-align: center;
+}
+
+ #name{
+    text-transform: uppercase;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:2.4em;
+    font-weight:900;
+    color:#000;
+}
+
+#container header #table_color{
+    width:60%;
+    height:35%;
+    padding-top:0;
+    margin-left:20%;
+    text-align: center;
+}
+
+#container header #table_color .btn{
+    height:4.5vw;
+    width:4.5vw;
+    margin-left:1%;
+    margin-top:2%;
+    cursor: pointer;
+    border:.1em solid #cecece;
+    border-radius:4em;
+    border:.1em solid rgb(100, 98, 98);
+}
+
+#container header #table_color .sentence_selection{
+    color:yellow;
+    font-size:1.5em;
+    line-height:1em;
+}
+
+/*********************************************/
+
+
+/*************** Welcome **********************/
+#welcome{
+    width:100%;
+    height:80vh;
+}
+
+#welcome #img_wel{
+    border-radius: .3em;
+    margin-top:10vh;
+    margin-bottom:10vh;
+    margin-left: 5%;
+    margin-right:5%;
+    width:40%;
+    height:70vh;
+    float:left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./facebook.jpg');
+}
+
+#welcome #sub_wel{
+    width:40%;
+    height:70vh;
+    margin-top: 10vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10vh;
+    float: left;
+    font-size: 1.4em;
+    line-height: 1.1em;
+}
+
+#welcome #sub_wel #name{
+    font-size:1.4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:blue;
+}
+
+#welcome #sub_wel #title{
+    font-size:1em;
+    color:#e99f30;
+    font-weight: bold;
+}
+
+
+/**************** MAIN ***********************/
+.line{
+    height:1vh;
+    width:50%;
+    background-color: #cecece;
+    margin:3.4em 25% 0 25%;
+    border-radius: .1em;
+}
+
+main .wrap{
+    width:100%;
+    height:100vh;
+}
+
+main .wrap #subject{
+    width:45%;
+    height:80vh;
+    float:left;
+    margin-left: 5%;
+    margin-top:10vh;
+    margin-bottom:10vh;
+    font-size: 1.4em;
+    line-height:1.5em;
+}
+
+main #images{
+    border-radius: .4em;
+    margin-top:15vh;
+    margin-bottom:10vh;
+    margin-left: 5%;
+    width:40%;
+    height:70vh;
+    float:left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url('https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+}
+
+.clear{
+    clear: both;
+}
+
+main #chess{
+    width:100%;
+    height:100vh;
+}
+
+main #chess #sub_chess{
+    width:45%;
+    height:85vh;
+    float:left;
+    margin-left:5%;
+    margin-top:10vh;
+    margin-bottom:5vh;
+    font-size: 1.4em;
+    line-height:1.3em;
+}
+
+main #chess #img_chess{
+    border-radius: .4em;
+    margin-top:20vh;
+    margin-bottom:10vh;
+    margin-left: 5%;
+    width:42%;
+    height:65vh;
+    float:left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url('http://cotuong.vn/wp-content/uploads/2018/09/khac-nhau-co-tuong-chieu-tuong.jpg');
+}
+
+/**************** country ******************/
+
+main #country{
+    width:100%;
+    height:70vh;
+}
+
+main #country #sub_country{
+    width:45%;
+    height:70vh;
+    float:left;
+    margin-left: 5%;
+    margin-top:15vh;
+    margin-bottom:5vh;
+    font-size:1.5em;
+    line-height:1.3em;
+}
+
+main #country #img_country{
+    border-radius: .4em;
+    margin-top:15vh;
+    margin-bottom:10vh;
+    margin-left: 5%;
+    width:40%;
+    height:60vh;
+    float:left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url('https://scontent.fhph1-1.fna.fbcdn.net/v/t1.0-0/p640x640/84087263_1348109392064048_52915092303380480_o.jpg?_nc_cat=109&_nc_sid=a61e81&_nc_ohc=nzh2N6neCckAX__7u9T&_nc_ht=scontent.fhph1-1.fna&_nc_tp=6&oh=23190fa8e775256cc6446bf03277907c&oe=5EC1B962');
+}
+
+/************* SCHOOL ****************/
+main #school{
+    width:100%;
+    height:100vh;
+}
+
+main #school #sub_school{
+    width:45%;
+    height:85vh;
+    float:left;
+    margin-left: 5%;
+    margin-top:10vh;
+    margin-bottom:5vh;
+    font-size: 1.4em;
+    line-height:1.3em;
+}
+
+main #school #img_school{
+    border-radius: .4em;
+    margin-top:20vh;
+    margin-bottom:10vh;
+    margin-left: 5%;
+    width:40%;
+    height:60vh;
+    float:left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url('https://sites.google.com/site/lop10c1thptlythuongkiethmhcmc/_/rsrc/1458375301823/home/ltk.jpg');
+}
+
+footer{
+    width:100%;
+    height:10em;
+    background-color: rgb(7, 7, 7);
+}
+
+footer #left{
+    width:50%;
+    height:10em;
+    float:left;
+}
+
+footer #left p{
+    text-align: center;
+}
+
+footer #left ul{
+    padding-left: 4em;
+    width:100%;
+    height:3em;
+}
+
+footer #left ul li{
+    display:inline-block;
+    list-style: none;
+    padding-left:4%;
+    padding-top: .6em;
+}
+
+footer #left ul li a{
+    text-decoration: none;
+    color:rgb(248, 158, 173);
+    line-height: 1.3em;
+    font-size: 1.4em;
+}
+
+footer #left #icon{
+    width:100%;
+    height:2em;
+    text-align: center;
+}
+
+footer #left #icon i{
+    padding-top:3vh;
+    padding-left:3%;
+}
+
+footer #right{
+    width:50%;
+    height:20vh;
+    float:left;
+}
+
+footer #right #information{
+    padding-top:.4em;
+    padding-left:5%;
+    color:yellow;
+    line-height:1.5em;
+    font-size: 1.5em;
+}
+
+
+

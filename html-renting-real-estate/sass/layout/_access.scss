@@ -1,0 +1,56 @@
+.access {
+  position: relative;
+  padding: 123px 0 97px;
+  &-container {
+    display: flex;
+  }
+  &-content {
+    min-width: 590px;
+    margin-top: 149px;
+    .heading {
+      max-width: 490px;
+    }
+    .desc {
+      max-width: 425px;
+      margin: 20px 0 40px;
+    }
+  }
+  .revenue {
+    bottom: 57px;
+    right: 260px;
+  }
+  .metric {
+    position: absolute;
+    top: 143px;
+    right: 455px;
+    height: 150px;
+    width: 380px;
+    background-color: #fff;
+    box-shadow: -10px 14px 34px rgba(60, 80, 224, 0.09);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    &-info {
+      margin-left: 20px;
+    }
+    &-money {
+      font-weight: 600;
+      font-size: 3rem;
+      line-height: 4.5rem;
+      letter-spacing: -0.015rem;
+      color: $text-primary-color;
+    }
+    &-address {
+      font-weight: 500;
+      font-size: 1.4rem;
+      line-height: 2.1rem;
+      letter-spacing: -0.01rem;
+      color: $text-second-color;
+      margin-bottom: 5px;
+    }
+    &-data {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

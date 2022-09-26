@@ -1,0 +1,84 @@
+.discover2 {
+  padding: 170px 0 90px;
+  position: relative;
+  &-container {
+    display: flex;
+  }
+
+  &-content {
+    max-width: 499px;
+    margin-left: 124px;
+    margin-top: 66px;
+  }
+  .heading {
+    margin-bottom: 20px;
+  }
+  .desc {
+    max-width: 335px;
+  }
+  &-list {
+    margin-top: 50px;
+    margin-bottom: 35px;
+  }
+  &-item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  &-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 100rem;
+    background-color: #eceefc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    ion-icon {
+      color: $primary-color;
+      font-size: 2rem;
+      font-weight: 600;
+    }
+  }
+  &-desc {
+    letter-spacing: -0.015em;
+  }
+  .amys {
+    width: 284px;
+    height: 260px;
+    padding: 35px 0 43px 38px;
+    background-color: #fff;
+    box-shadow: -10px 14px 34px rgba(60, 80, 224, 0.09);
+    border-radius: 20px;
+    position: absolute;
+    top: 90px;
+    left: 434px;
+    &-money {
+      font-weight: 500;
+      font-size: 2rem;
+      line-height: 3rem;
+      letter-spacing: -0.015rem;
+      color: $text-primary-color;
+      margin-bottom: 10px;
+    }
+    &-counter {
+      font-weight: 500;
+      font-size: 1.4rem;
+      line-height: 2.1rem;
+      letter-spacing: -0.005rem;
+      color: #627193;
+    }
+    &-rate {
+      display: flex;
+      margin: 16px 0 22px;
+      img {
+        margin-right: 8px;
+      }
+    }
+    &-user {
+      display: flex;
+      img {
+        margin-right: 12px;
+      }
+    }
+  }
+}

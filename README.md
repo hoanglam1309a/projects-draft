@@ -1,2 +1,2 @@
-# projects-draft
-Some projects draft
+# project-draft
+Some project draft
