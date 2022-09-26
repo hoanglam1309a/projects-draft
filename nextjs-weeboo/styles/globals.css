@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Nunito Sans", sans-serif;
+  }
+  ul,
+  ol {
+    list-style: none;
+  }
+  input,
+  textarea,
+  select,
+  button {
+    outline: none;
+    font-size: 16px;
+    font: inherit;
+  }
+  input {
+    line-height: normal;
+  }
+  label,
+  button {
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
+  img,
+  picture {
+    display: block;
+    max-width: 100%;
+  }
+}
+h1 {
+  @apply text-2xl;
+}
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+
+@layer utilities {
+  .layout-container {
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .comic-gird {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 10px;
+  }
+  .comic-top {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+  }
+  .grid-detail-episodes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  .scrollbar::-webkit-scrollbar {
+    width: 10px;
+  }
+  .scrollbar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  .scrollbar::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+  }
+  button.active {
+    @apply bg-linearGreen text-white;
+  }
+}
+@media screen and (max-width: 380px) {
+  .comic-gird {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .navbar {
+    transform: translateX(100%);
+  }
+  .navbar.show {
+    transform: translateX(0);
+  }
+}
